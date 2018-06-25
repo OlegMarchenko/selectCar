@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Main page</title>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!--CONTENT-->
+    <main id="main-page">
+
+        <!--step 1-->
+        <div id="step-1">
+            <div class="container">
+                <div class="steps-holder">
+                    <div class="steps">
+                        <div class="step active">
+                            <div class="step-number">1</div>
+                            <div class="step-description">Location Detail</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-description">Vehicle</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-description">Passenger info</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-description">Summary</div>
+                        </div>
+                    </div>
+                    <div class="steps-description">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque magni mollitia obcaecati
+                            quae
+                            quasi sed, ullam. A aut cum iste, minus nam nihil nostrum nulla omnis reiciendis repellat
+                            sequi,
+                            velit!</h2>
+                    </div>
+                </div>
+                <div class="step-1-content step-content">
+                    <div class="booking-type">
+                        <div class="title">Booking Type</div>
+                        <div class="options">
+                            <button class="booking-type-btn one-way active">One way</button>
+                            <button class="booking-type-btn daily">Daily</button>
+                            <button class="booking-type-btn return">Return</button>
+                        </div>
+                    </div>
+                    <div class="form-map-holder">
+                        <div class="left-side">
+                            <form>
+                                <div class="form-holder">
+                                    <div class="option-asap">
+                                        <input id="asap" type="checkbox">
+                                        <label for="asap">As soon as possible</label>
+                                    </div>
+                                    <div class="select-date-time">
+                                        <div class="date-holder">
+                                            <span class="label">Pickup date</span>
+                                            <div class="date icon-calendar">
+                                                <span class="title">Pickup date</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-holder">
+                                            <span class="label">Pickup time</span>
+                                            <div class="time icon-clock">
+                                                <span class="title">Select time</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="select-location">
+                                        <label class="label" for="location">Pickup location</label>
+                                        <input type="text" id="location" placeholder="Enter your location">
+                                    </div>
+                                    <div class="select-destination">
+                                        <label class="label" for="destination">Drop off location</label>
+                                        <input type="text" id="destination" placeholder="Enter your drop off location">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right-side">
+                            <div id="googleMap" style="width:100%;height:366px;"></div>
+                        </div>
+                    </div>
+                    <button class="next-step">next</button>
+                </div>
+            </div>
+        </div>
+
+        <!--step 2-->
+        <div id="step-2">
+            <div class="container">
+                <div class="steps-holder">
+                    <div class="steps">
+                        <div class="step active finished">
+                            <div class="step-number">1</div>
+                            <div class="step-description">Location Detail</div>
+                        </div>
+                        <div class="step active">
+                            <div class="step-number">2</div>
+                            <div class="step-description">Vehicle</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-description">Passenger info</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-description">Summary</div>
+                        </div>
+                    </div>
+                    <div class="steps-description">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque magni mollitia obcaecati
+                            quae
+                            quasi sed, ullam. A aut cum iste, minus nam nihil nostrum nulla omnis reiciendis repellat
+                            sequi,
+                            velit!</h2>
+                    </div>
+                </div>
+                <div class="step-2-content step-content">
+                    <div class="vehicle-holder">
+                        <div class="left-side">
+                            <div class="location-detail-holder base-bg-pd">
+                                <div class="main-title">Location Detail</div>
+                                <div class="details">
+                                    <div>
+                                        <div class="title">Pickup date</div>
+                                        <span class="value date-value">June 1, 2018</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Pickup time</div>
+                                        <span class="value time-value">7:00 AM</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Pickup location</div>
+                                        <span class="value location-value">12 st green belt location</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Drop off location</div>
+                                        <span class="value destination-value">54 st green belt location</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-side">
+                            <div class="cards-holder">
+                                <div class="card card-product">
+                                    <div class="main">
+                                        <div class="card-left">
+                                            <div class="card-image">
+                                                <img src="img/car.png" alt="car">
+                                            </div>
+                                        </div>
+                                        <div class="card-right">
+                                            <div class="car-description">
+                                                <div class="title">BMW Convertible</div>
+                                                <div class="price">$ 5 per hour</div>
+                                                <div class="number-of-passengers">2 passengers</div>
+                                            </div>
+                                            <div class="select-holder">
+                                                <button class="select">Select</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="optional-holder">
+                                        <div class="title">Add-On Optional</div>
+                                        <div class="optional">
+                                            <div class="card-optional">
+                                                <div class="card-top">
+                                                    <div class="card-icon icon-compass"></div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="card-description">
+                                                        <span class="name-option">GPS Navigation</span>
+                                                        <span class="price-option">$ 5 each</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-optional">
+                                                <div class="card-top">
+                                                    <div class="card-icon icon-child-seat"></div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="card-description">
+                                                        <span class="name-option">Child Seat</span>
+                                                        <span class="price-option">$ 5 each</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-optional">
+                                                <div class="card-top">
+                                                    <div class="card-icon icon-wifi"></div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="card-description">
+                                                        <span class="name-option">Wifi Access</span>
+                                                        <span class="price-option">$ 5 each</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-optional">
+                                                <div class="card-top">
+                                                    <div class="card-icon icon-shield"></div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="card-description">
+                                                        <span class="name-option">Full Insurance</span>
+                                                        <span class="price-option">$ 5 each</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-optional">
+                                                <div class="card-top">
+                                                    <div class="card-icon icon-snowflake-shape"></div>
+                                                </div>
+                                                <div class="card-bottom">
+                                                    <div class="card-description">
+                                                        <span class="name-option">Winter Package</span>
+                                                        <span class="price-option">$ 5 each</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="next-step">next</button>
+                </div>
+            </div>
+        </div>
+
+        <!--step 3-->
+        <div id="step-3">
+            <div class="container">
+                <div class="steps-holder">
+                    <div class="steps">
+                        <div class="step active finished">
+                            <div class="step-number">1</div>
+                            <div class="step-description">Location Detail</div>
+                        </div>
+                        <div class="step active finished">
+                            <div class="step-number">2</div>
+                            <div class="step-description">Vehicle</div>
+                        </div>
+                        <div class="step active">
+                            <div class="step-number">3</div>
+                            <div class="step-description">Passenger info</div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-description">Summary</div>
+                        </div>
+                    </div>
+                    <div class="steps-description">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque magni mollitia obcaecati
+                            quae
+                            quasi sed, ullam. A aut cum iste, minus nam nihil nostrum nulla omnis reiciendis repellat
+                            sequi,
+                            velit!</h2>
+                    </div>
+                </div>
+                <div class="step-3-content step-content">
+                    <div class="passenger-info-holder">
+                        <div class="left-side">
+                            <div class="location-detail-holder base-bg-pd">
+                                <div class="main-title">Location Detail</div>
+                                <div class="details">
+                                    <div>
+                                        <div class="title">Pickup date</div>
+                                        <span class="value date-value">June 1, 2018</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Pickup time</div>
+                                        <span class="value time-value">7:00 AM</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Pickup location</div>
+                                        <span class="value location-value">12 st green belt location</span>
+                                    </div>
+                                    <div>
+                                        <div class="title">Drop off location</div>
+                                        <span class="value destination-value">54 st green belt location</span>
+                                    </div>
+                                </div>
+                                <div class="main-title">Vehicle</div>
+                                <div class="details-vehicle">
+                                    <div class="details-top">
+                                        <div class="details-image">
+                                            <img src="img/car.png" alt="car">
+                                        </div>
+                                    </div>
+                                    <div class="details-bottom">
+                                        <div class="name-car">BMW Convertible</div>
+                                        <div class="price-car">$ 5 Per Hour</div>
+                                        <div class="optional-car">Add-on-Optional</div>
+                                        <ul class="optional-list">
+                                            <li>GPS Navigation</li>
+                                            <li>Wifi Access</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="total-price">
+                                <div class="total-price-holder">
+                                    <div class="titles">
+                                        <span class="title">Subtotal</span>
+                                        <span class="title">Tax</span>
+                                        <span class="total-title">Total</span>
+                                    </div>
+                                    <div class="values">
+                                        <span class="value">$ 25</span>
+                                        <div class="select-tax">
+                                            <select>
+                                                <option value="0">0%</option>
+                                                <option value="5">5%</option>
+                                                <option value="10">10%</option>
+                                            </select>
+                                        </div>
+                                        <span class="total-vehicle-price">$ 25.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-side">
+                            <form>
+                                <div class="form-holder">
+                                    <div class="form-group">
+                                        <label for="first-name" class="label">First Name</label>
+                                        <input type="text" id="first-name" placeholder="Enter your first name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="last-name" class="label">Last Name</label>
+                                        <input type="text" id="last-name" placeholder="Enter your last name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="company-name" class="label">Company Name</label>
+                                        <input type="text" id="company-name" placeholder="Enter company name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email-address" class="label">Email Address</label>
+                                        <input type="email" id="email-address" placeholder="Enter your email address" required>
+                                    </div>
+                                    <div class="form-group-select">
+                                        <label for="select-country" class="label">Select Country</label>
+                                        <select id="select-country" required>
+                                            <option value="Select">Select</option>
+                                            <option value="Select">Ukrainian</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group-select">
+                                        <label for="select-city" class="label">Select City</label>
+                                        <select id="select-city" required>
+                                            <option value="Select">Select</option>
+                                            <option value="Select">Kharkiv</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone-number" class="label">Phone Number</label>
+                                        <input type="tel" id="phone-number" placeholder="Enter phone number" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mobile-number" class="label">Mobile Number</label>
+                                        <input type="tel" id="mobile-number" placeholder="Enter mobile number" required>
+                                    </div>
+                                </div>
+                            </form>
+                            <button class="next-step">next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="step-4">
+            <div class="container">
+                <div class="steps-holder">
+                    <div class="steps">
+                        <div class="step active finished">
+                            <div class="step-number">1</div>
+                            <div class="step-description">Location Detail</div>
+                        </div>
+                        <div class="step active finished">
+                            <div class="step-number">2</div>
+                            <div class="step-description">Vehicle</div>
+                        </div>
+                        <div class="step active finished">
+                            <div class="step-number">3</div>
+                            <div class="step-description">Passenger info</div>
+                        </div>
+                        <div class="step active">
+                            <div class="step-number">4</div>
+                            <div class="step-description">Summary</div>
+                        </div>
+                    </div>
+                    <div class="steps-description">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque magni mollitia obcaecati
+                            quae
+                            quasi sed, ullam. A aut cum iste, minus nam nihil nostrum nulla omnis reiciendis repellat
+                            sequi,
+                            velit!</h2>
+                    </div>
+                </div>
+                <div class="step-4-content step-content">
+                    <div class="summary-holder">
+                        <div class="location-detail-holder base-bg-pd">
+                            <div class="main-title">Location Detail</div>
+                            <div class="details">
+                                <div>
+                                    <div class="title">Pickup date</div>
+                                    <span class="value date-value">June 1, 2018</span>
+                                </div>
+                                <div>
+                                    <div class="title">Pickup time</div>
+                                    <span class="value time-value">7:00 AM</span>
+                                </div>
+                                <div>
+                                    <div class="title">Pickup location</div>
+                                    <span class="value location-value">12 st green belt location</span>
+                                </div>
+                                <div>
+                                    <div class="title">Drop off location</div>
+                                    <span class="value destination-value">54 st green belt location</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vehicle passenger-info-holder base-bg-pd">
+                            <div class="main-title">Vehicle</div>
+                            <div class="details-vehicle">
+                                <div class="details-top">
+                                    <div class="details-image">
+                                        <img src="img/car.png" alt="car">
+                                    </div>
+                                </div>
+                                <div class="details-bottom">
+                                    <div class="name-car">BMW Convertible</div>
+                                    <div class="price-car">$ 5 Per Hour</div>
+                                    <div class="optional-car">Add-on-Optional</div>
+                                    <ul class="optional-list">
+                                        <li>GPS Navigation</li>
+                                        <li>Wifi Access</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="passenger-info base-bg-pd">
+                            <div class="main-title">Passenger Info</div>
+                            <div class="passenger">
+                                <span>Passenger 1</span>
+                                <p class="name">John Smith</p>
+                                <p class="company">Microsoft</p>
+                                <p class="email">johnsmith@gmail.com</p>
+                                <p class="city">Karachi,Pakistan</p>
+                                <p class="phone">+92-345-2134-543</p>
+                            </div>
+                            <div class="passenger">
+                                <span>Passenger 1</span>
+                                <p class="name">John Smith</p>
+                                <p class="company">Microsoft</p>
+                                <p class="email">johnsmith@gmail.com</p>
+                                <p class="city">Karachi,Pakistan</p>
+                                <p class="phone">+92-345-2134-543</p>
+                            </div>
+                        </div>
+                        <div class="payment-method-and-billing">
+                            <div class="payment base-bg-pd">
+                                <div class="main-title">Payment Method</div>
+                                <div class="payment-method cash-payment">
+                                    <i class="icon-cash-payment"></i>
+                                    <span>Cash Payment</span>
+                                </div>
+                                <div class="payment-method">
+                                    <span class="stripe">stripe</span>
+                                </div>
+                                <div class="payment-method paypal">
+                                    <span>Pay<span>Pal</span></span>
+                                </div>
+                            </div>
+                            <div class="billing base-bg-pd">
+                                <div class="main-title">Billing</div>
+                                <div class="total-price">
+                                    <div class="total-price-holder">
+                                        <div class="titles">
+                                            <span class="title">Subtotal</span>
+                                            <span class="title">Tax</span>
+                                            <span class="total-title">Total</span>
+                                        </div>
+                                        <div class="values">
+                                            <span class="value">$ 25</span>
+                                            <div class="select-tax">
+                                                <select>
+                                                    <option value="0">0%</option>
+                                                    <option value="5">5%</option>
+                                                    <option value="10">10%</option>
+                                                </select>
+                                            </div>
+                                            <span class="total-vehicle-price">$ 25.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="next-step">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+<!--SCRIPTS-->
+<script>
+
+    function myMap() {
+        var myLatLng = {lat: 24.8612095, lng: 67.0711872};
+
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+            zoom: 15,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: 'img/icons/maps-and-flags.png'
+        });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPiOr_q1lygjPJt4bW7tsLcaO-iU7hUcA&callback=myMap"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
